@@ -12,4 +12,4 @@ services:
       XRAY_VMESS_AEAD_FORCED: "false"
     restart: always
     ports:
-      - 443:443
+      - 172.17.0.1:443:443
